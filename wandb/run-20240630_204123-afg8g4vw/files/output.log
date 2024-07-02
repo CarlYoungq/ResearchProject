@@ -1,0 +1,1182 @@
+
+Epoch 0:   0%|          | 0/391 [00:00<?, ?it/s]
+Training Epoch: 0
+[autoreload of rev_mod failed: Traceback (most recent call last):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 273, in check
+    superreload(m, reload, self.old_objects)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+    update_generic(old_obj, new_obj)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+RecursionError: maximum recursion depth exceeded while calling a Python object
+]
+[4mReloaded modules[24m: rev, fast_rev, utils, revmvit, revswin, rev_mod
+cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+RevViT_Momentum(
+  (layers): ModuleList(
+    (0-3): 4 x ReversibleBlock(
+      (F): AttentionSubBlock(
+        (norm): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (G): MLPSubblock(
+        (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (mlp): Sequential(
+          (0): Linear(in_features=256, out_features=1024, bias=True)
+          (1): GELU(approximate='none')
+          (2): Linear(in_features=1024, out_features=256, bias=True)
+        )
+      )
+    )
+  )
+  (patch_embed): Conv2d(3, 256, kernel_size=(4, 4), stride=(4, 4))
+  (head): Linear(in_features=512, out_features=10, bias=True)
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+)
+Training Epoch: 0
+Epoch 0:   0%|          | 0/391 [00:00<?, ?it/s]
+[4mReloaded modules[24m: rev, fast_rev, utils, revmvit, revswin, rev_mod
+cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+[autoreload of rev_mod failed: Traceback (most recent call last):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 273, in check
+    superreload(m, reload, self.old_objects)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+    update_generic(old_obj, new_obj)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+RecursionError: maximum recursion depth exceeded while calling a Python object
+]
+Epoch 0:   0%|          | 0/391 [00:00<?, ?it/s]
+RevViT_Momentum(
+  (layers): ModuleList(
+    (0-3): 4 x ReversibleBlock(
+      (F): AttentionSubBlock(
+        (norm): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (G): MLPSubblock(
+        (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (mlp): Sequential(
+          (0): Linear(in_features=256, out_features=1024, bias=True)
+          (1): GELU(approximate='none')
+          (2): Linear(in_features=1024, out_features=256, bias=True)
+        )
+      )
+    )
+  )
+  (patch_embed): Conv2d(3, 256, kernel_size=(4, 4), stride=(4, 4))
+  (head): Linear(in_features=512, out_features=10, bias=True)
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+)
+Training Epoch: 0
+[autoreload of rev_mod failed: Traceback (most recent call last):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 273, in check
+    superreload(m, reload, self.old_objects)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+    update_generic(old_obj, new_obj)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+RecursionError: maximum recursion depth exceeded while calling a Python object
+]
+[4mReloaded modules[24m: rev, fast_rev, utils, revmvit, revswin, rev_mod
+cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+RevViT_Momentum(
+  (layers): ModuleList(
+    (0-3): 4 x ReversibleBlock(
+      (F): AttentionSubBlock(
+        (norm): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (G): MLPSubblock(
+        (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (mlp): Sequential(
+          (0): Linear(in_features=256, out_features=1024, bias=True)
+          (1): GELU(approximate='none')
+          (2): Linear(in_features=1024, out_features=256, bias=True)
+        )
+      )
+    )
+  )
+  (patch_embed): Conv2d(3, 256, kernel_size=(4, 4), stride=(4, 4))
+  (head): Linear(in_features=512, out_features=10, bias=True)
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+)
+Training Epoch: 0
+Epoch 0:   0%|          | 0/391 [00:00<?, ?it/s]
+[4mReloaded modules[24m: rev, fast_rev, utils, revmvit, revswin, rev_mod
+cuda
+==> Preparing data..
+Files already downloaded and verified
+[autoreload of rev_mod failed: Traceback (most recent call last):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 273, in check
+    superreload(m, reload, self.old_objects)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+    update_generic(old_obj, new_obj)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+RecursionError: maximum recursion depth exceeded while calling a Python object
+]
+Files already downloaded and verified
+RevViT_Momentum(
+  (layers): ModuleList(
+    (0-3): 4 x ReversibleBlock(
+      (F): AttentionSubBlock(
+        (norm): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (G): MLPSubblock(
+        (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (mlp): Sequential(
+          (0): Linear(in_features=256, out_features=1024, bias=True)
+          (1): GELU(approximate='none')
+          (2): Linear(in_features=1024, out_features=256, bias=True)
+        )
+      )
+    )
+  )
+  (patch_embed): Conv2d(3, 256, kernel_size=(4, 4), stride=(4, 4))
+  (head): Linear(in_features=512, out_features=10, bias=True)
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+)
+Training Epoch: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0: 100%|█████████▉| 390/391 [00:39<00:00,  9.82it/s, Loss=1.94, Accuracy=27.7]
+[4mReloaded modules[24m: rev, fast_rev, utils, revmvit, revswin, rev_mod
+cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+RevViT_Momentum(
+  (layers): ModuleList(
+    (0-3): 4 x ReversibleBlock(
+      (F): AttentionSubBlock(
+        (norm): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (G): MLPSubblock(
+        (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (mlp): Sequential(
+          (0): Linear(in_features=256, out_features=1024, bias=True)
+          (1): GELU(approximate='none')
+          (2): Linear(in_features=1024, out_features=256, bias=True)
+        )
+      )
+    )
+  )
+  (patch_embed): Conv2d(3, 256, kernel_size=(4, 4), stride=(4, 4))
+  (head): Linear(in_features=512, out_features=10, bias=True)
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+)
+Training Epoch: 0
+[autoreload of rev_mod failed: Traceback (most recent call last):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 273, in check
+    superreload(m, reload, self.old_objects)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+    update_generic(old_obj, new_obj)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+RecursionError: maximum recursion depth exceeded while calling a Python object
+]
+Epoch 0:   0%|          | 0/391 [00:00<?, ?it/s]
+[4mReloaded modules[24m: rev, fast_rev, utils, revmvit, revswin, rev_mod
+[autoreload of rev_mod failed: Traceback (most recent call last):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 273, in check
+    superreload(m, reload, self.old_objects)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+    update_generic(old_obj, new_obj)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+RecursionError: maximum recursion depth exceeded while calling a Python object
+]
+cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+RevViT_Momentum(
+  (layers): ModuleList(
+    (0-3): 4 x ReversibleBlock(
+      (F): AttentionSubBlock(
+        (norm): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (G): MLPSubblock(
+        (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (mlp): Sequential(
+          (0): Linear(in_features=256, out_features=1024, bias=True)
+          (1): GELU(approximate='none')
+          (2): Linear(in_features=1024, out_features=256, bias=True)
+        )
+      )
+    )
+  )
+  (patch_embed): Conv2d(3, 256, kernel_size=(4, 4), stride=(4, 4))
+  (head): Linear(in_features=512, out_features=10, bias=True)
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+)
+Training Epoch: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0: 100%|█████████▉| 390/391 [00:34<00:00, 11.26it/s, Loss=1.94, Accuracy=27.7]
+[autoreload of rev_mod failed: Traceback (most recent call last):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 273, in check
+    superreload(m, reload, self.old_objects)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+    update_generic(old_obj, new_obj)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+RecursionError: maximum recursion depth exceeded while calling a Python object
+]
+[4mReloaded modules[24m: rev, fast_rev, utils, revmvit, revswin, rev_mod
+cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+RevViT_Momentum(
+  (layers): ModuleList(
+    (0-3): 4 x ReversibleBlock(
+      (F): AttentionSubBlock(
+        (norm): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (G): MLPSubblock(
+        (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (mlp): Sequential(
+          (0): Linear(in_features=256, out_features=1024, bias=True)
+          (1): GELU(approximate='none')
+          (2): Linear(in_features=1024, out_features=256, bias=True)
+        )
+      )
+    )
+  )
+  (patch_embed): Conv2d(3, 256, kernel_size=(4, 4), stride=(4, 4))
+  (head): Linear(in_features=512, out_features=10, bias=True)
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+)
+Training Epoch: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  97%|█████████▋| 379/391 [00:33<00:01, 11.41it/s, Loss=1.95, Accuracy=27.5]
+Training Accuracy: 27.60
+Training Loss: 1.941
+Epoch 0: 100%|██████████| 391/391 [00:34<00:00, 11.41it/s, Loss=1.94, Accuracy=27.6]
+Epoch 0 [Test]:  53%|█████▎    | 42/79 [00:01<00:00, 39.10it/s, Loss=1.92, Accuracy=30.8]
+Test Accuracy: 30.47
+Test Loss: 1.952
+Epoch 0 [Test]: 100%|██████████| 79/79 [00:01<00:00, 39.92it/s, Loss=1.95, Accuracy=30.5]
+D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\torch\optim\lr_scheduler.py:156: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:  97%|█████████▋| 378/391 [00:33<00:01, 11.38it/s, Loss=1.85, Accuracy=31.9]
+Training Accuracy: 31.79
+Training Loss: 1.859
+Epoch 1: 100%|██████████| 391/391 [00:34<00:00, 11.42it/s, Loss=1.86, Accuracy=31.8]
+Epoch 1 [Test]:  48%|████▊     | 38/79 [00:00<00:01, 39.99it/s, Loss=2.11, Accuracy=24.1]
+Test Accuracy: 23.62
+Test Loss: 2.132
+Epoch 1 [Test]: 100%|██████████| 79/79 [00:01<00:00, 40.50it/s, Loss=2.13, Accuracy=23.6]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 2:  91%|█████████ | 355/391 [00:31<00:03, 11.34it/s, Loss=2.12, Accuracy=22.8]
+[4mReloaded modules[24m: rev, fast_rev, rev_mod, utils, revmvit, revswin
+cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+RevViT(
+  (layers): ModuleList(
+    (0-3): 4 x ReversibleBlock(
+      (F): AttentionSubBlock(
+        (norm): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (G): MLPSubblock(
+        (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (mlp): Sequential(
+          (0): Linear(in_features=256, out_features=1024, bias=True)
+          (1): GELU(approximate='none')
+          (2): Linear(in_features=1024, out_features=256, bias=True)
+        )
+      )
+    )
+  )
+  (patch_embed): Conv2d(3, 256, kernel_size=(4, 4), stride=(4, 4))
+  (head): Linear(in_features=512, out_features=10, bias=True)
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+)
+Training Epoch: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  99%|█████████▉| 389/391 [00:27<00:00, 13.90it/s, Loss=1.75, Accuracy=35.5]
+Training Accuracy: 35.54
+Training Loss: 1.749
+Epoch 0: 100%|██████████| 391/391 [00:27<00:00, 14.02it/s, Loss=1.75, Accuracy=35.5]
+Epoch 0 [Test]:  77%|███████▋  | 61/79 [00:01<00:00, 42.96it/s, Loss=1.58, Accuracy=43.5]
+Test Accuracy: 43.51
+Test Loss: 1.584
+Epoch 0 [Test]: 100%|██████████| 79/79 [00:01<00:00, 43.30it/s, Loss=1.58, Accuracy=43.5]
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1: 100%|██████████| 391/391 [00:28<00:00, 13.95it/s, Loss=1.4, Accuracy=49.4]
+Epoch 1 [Test]:   4%|▍         | 3/79 [00:00<00:01, 44.15it/s, Loss=1.33, Accuracy=51.6]
+Training Accuracy: 49.39
+Training Loss: 1.401
+Epoch 1 [Test]: 100%|██████████| 79/79 [00:01<00:00, 44.62it/s, Loss=1.33, Accuracy=51.8]
+Epoch 2:   1%|▏         | 5/391 [00:00<00:27, 14.29it/s, Loss=1.31, Accuracy=51.7]
+Test Accuracy: 51.78
+Test Loss: 1.332
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 2: 100%|██████████| 391/391 [00:28<00:00, 13.89it/s, Loss=1.26, Accuracy=54.8]
+Epoch 2 [Test]:   8%|▊         | 6/79 [00:00<00:01, 39.10it/s, Loss=1.28, Accuracy=53.4]
+Training Accuracy: 54.83
+Training Loss: 1.257
+Epoch 2 [Test]: 100%|██████████| 79/79 [00:01<00:00, 43.97it/s, Loss=1.28, Accuracy=53.6]
+Epoch 3:   1%|▏         | 5/391 [00:00<00:27, 14.29it/s, Loss=1.22, Accuracy=56.6]
+Test Accuracy: 53.56
+Test Loss: 1.279
+
+
+
+
+
+
+
+
+Epoch 3:  56%|█████▋    | 220/391 [00:15<00:12, 14.07it/s, Loss=1.17, Accuracy=57.8]
+[4mReloaded modules[24m: rev, fast_rev, utils, revmvit, revswin
+cuda
+==> Preparing data..
+Files already downloaded and verified
+Epoch 0:   1%|          | 2/391 [00:00<03:01,  2.15it/s, Loss=2.44, Accuracy=14.1]
+Files already downloaded and verified
+RevViT_Momentum(
+  (layers): ModuleList(
+    (0-3): 4 x ReversibleBlock(
+      (F): AttentionSubBlock(
+        (norm): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (G): MLPSubblock(
+        (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (mlp): Sequential(
+          (0): Linear(in_features=256, out_features=1024, bias=True)
+          (1): GELU(approximate='none')
+          (2): Linear(in_features=1024, out_features=256, bias=True)
+        )
+      )
+    )
+  )
+  (patch_embed): Conv2d(3, 256, kernel_size=(4, 4), stride=(4, 4))
+  (head): Linear(in_features=512, out_features=10, bias=True)
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  99%|█████████▉| 388/391 [00:34<00:00, 11.44it/s, Loss=1.95, Accuracy=27.6]
+Training Accuracy: 27.65
+Training Loss: 1.945
+Epoch 0: 100%|██████████| 391/391 [00:34<00:00, 11.25it/s, Loss=1.95, Accuracy=27.7]
+Epoch 0 [Test]:  91%|█████████ | 72/79 [00:01<00:00, 39.63it/s, Loss=1.96, Accuracy=29.6]
+Test Accuracy: 29.52
+Test Loss: 1.968
+Epoch 0 [Test]: 100%|██████████| 79/79 [00:01<00:00, 40.23it/s, Loss=1.97, Accuracy=29.5]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:  98%|█████████▊| 385/391 [00:33<00:00, 11.33it/s, Loss=1.75, Accuracy=35.5]
+Training Accuracy: 35.42
+Training Loss: 1.747
+Epoch 1: 100%|██████████| 391/391 [00:34<00:00, 11.39it/s, Loss=1.75, Accuracy=35.4]
+Epoch 1 [Test]:  81%|████████  | 64/79 [00:01<00:00, 39.92it/s, Loss=1.88, Accuracy=31.7]
+Test Accuracy: 31.35
+Test Loss: 1.887
+Epoch 1 [Test]: 100%|██████████| 79/79 [00:01<00:00, 40.24it/s, Loss=1.89, Accuracy=31.4]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 2: 100%|██████████| 391/391 [00:34<00:00, 11.29it/s, Loss=2.05, Accuracy=25]
+Epoch 2 [Test]:  57%|█████▋    | 45/79 [00:01<00:00, 38.84it/s, Loss=2.3, Accuracy=15.2]
+Training Accuracy: 24.98
+Training Loss: 2.048
+Epoch 2 [Test]: 100%|██████████| 79/79 [00:01<00:00, 39.54it/s, Loss=2.26, Accuracy=16.1]
+Epoch 3:   3%|▎         | 13/391 [00:01<00:33, 11.34it/s, Loss=2.27, Accuracy=18]
+Test Accuracy: 16.15
+Test Loss: 2.256
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 3: 100%|██████████| 391/391 [00:35<00:00, 11.15it/s, Loss=2.15, Accuracy=19.1]
+Epoch 3 [Test]:  10%|█         | 8/79 [00:00<00:01, 40.36it/s, Loss=2.12, Accuracy=22.4]
+Training Accuracy: 19.10
+Training Loss: 2.152
+Epoch 3 [Test]: 100%|██████████| 79/79 [00:02<00:00, 38.27it/s, Loss=2.15, Accuracy=19.2]
+Epoch 4:   1%|          | 2/391 [00:00<00:34, 11.40it/s, Loss=2.15, Accuracy=20.3]
+Test Accuracy: 19.19
+Test Loss: 2.151
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 4:  98%|█████████▊| 384/391 [00:34<00:00, 11.38it/s, Loss=2.13, Accuracy=19.2]
+Training Accuracy: 19.19
+Training Loss: 2.128
+Epoch 4: 100%|██████████| 391/391 [00:34<00:00, 11.23it/s, Loss=2.13, Accuracy=19.2]
+Epoch 4 [Test]:  76%|███████▌  | 60/79 [00:01<00:00, 39.83it/s, Loss=2.13, Accuracy=18.5]
+Test Accuracy: 18.67
+Test Loss: 2.127
+Epoch 4 [Test]: 100%|██████████| 79/79 [00:01<00:00, 40.30it/s, Loss=2.13, Accuracy=18.7]
+
+
+Epoch 5:  11%|█         | 42/391 [00:03<00:32, 10.90it/s, Loss=2.14, Accuracy=19.7]
+[autoreload of rev_mod failed: Traceback (most recent call last):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 273, in check
+    superreload(m, reload, self.old_objects)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+    update_generic(old_obj, new_obj)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+RecursionError: maximum recursion depth exceeded while calling a Python object
+]
+[4mReloaded modules[24m: rev, fast_rev, utils, revmvit, revswin, rev_mod
+cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch 0:   2%|▏         | 8/391 [00:01<00:41,  9.28it/s, Loss=2.24, Accuracy=16.1]
+RevViT_Momentum(
+  (layers): ModuleList(
+    (0-3): 4 x ReversibleBlock(
+      (F): AttentionSubBlock(
+        (norm): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (G): MLPSubblock(
+        (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (mlp): Sequential(
+          (0): Linear(in_features=256, out_features=1024, bias=True)
+          (1): GELU(approximate='none')
+          (2): Linear(in_features=1024, out_features=256, bias=True)
+        )
+      )
+    )
+  )
+  (patch_embed): Conv2d(3, 256, kernel_size=(4, 4), stride=(4, 4))
+  (head): Linear(in_features=512, out_features=10, bias=True)
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  98%|█████████▊| 384/391 [00:39<00:00,  9.91it/s, Loss=1.95, Accuracy=27.5]
+Training Accuracy: 27.56
+Training Loss: 1.951
+Epoch 0: 100%|██████████| 391/391 [00:39<00:00,  9.83it/s, Loss=1.95, Accuracy=27.6]
+Epoch 0 [Test]:  71%|███████   | 56/79 [00:01<00:00, 39.57it/s, Loss=1.99, Accuracy=28.8]
+Test Accuracy: 28.19
+Test Loss: 2.017
+Epoch 0 [Test]: 100%|██████████| 79/79 [00:01<00:00, 40.10it/s, Loss=2.02, Accuracy=28.2]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:  99%|█████████▉| 388/391 [00:39<00:00,  9.75it/s, Loss=1.84, Accuracy=31.9]
+Training Accuracy: 31.90
+Training Loss: 1.841
+Epoch 1: 100%|██████████| 391/391 [00:39<00:00,  9.80it/s, Loss=1.84, Accuracy=31.9]
+Epoch 1 [Test]:  90%|████████▉ | 71/79 [00:01<00:00, 39.74it/s, Loss=2, Accuracy=25.5]
+Test Accuracy: 25.49
+Test Loss: 1.999
+Epoch 1 [Test]: 100%|██████████| 79/79 [00:01<00:00, 40.16it/s, Loss=2, Accuracy=25.5]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 2: 100%|██████████| 391/391 [00:39<00:00,  9.87it/s, Loss=1.93, Accuracy=29.2]
+Epoch 2 [Test]:  13%|█▎        | 10/79 [00:00<00:01, 39.67it/s, Loss=2.11, Accuracy=25.5]
+Training Accuracy: 29.21
+Training Loss: 1.926
+Epoch 2 [Test]: 100%|██████████| 79/79 [00:01<00:00, 40.08it/s, Loss=2.07, Accuracy=24.7]
+Epoch 3:   1%|          | 3/391 [00:00<00:38, 10.01it/s, Loss=2.08, Accuracy=27.3]
+Test Accuracy: 24.73
+Test Loss: 2.067
+
+
+
+
+
+
+
+
+Epoch 3:  37%|███▋      | 145/391 [00:14<00:24,  9.86it/s, Loss=2.04, Accuracy=24.7]
+[4mReloaded modules[24m: rev, fast_rev, utils, revmvit, revswin, rev_mod
+cuda
+==> Preparing data..
+Files already downloaded and verified
+[autoreload of rev_mod failed: Traceback (most recent call last):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 273, in check
+    superreload(m, reload, self.old_objects)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+    update_generic(old_obj, new_obj)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+RecursionError: maximum recursion depth exceeded while calling a Python object
+]
+Epoch 0:   1%|          | 3/391 [00:00<01:08,  5.69it/s, Loss=2.31, Accuracy=15.9]
+Files already downloaded and verified
+RevViT_Momentum(
+  (layers): ModuleList(
+    (0-3): 4 x ReversibleBlock(
+      (F): AttentionSubBlock(
+        (norm): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (G): MLPSubblock(
+        (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (mlp): Sequential(
+          (0): Linear(in_features=256, out_features=1024, bias=True)
+          (1): GELU(approximate='none')
+          (2): Linear(in_features=1024, out_features=256, bias=True)
+        )
+      )
+    )
+  )
+  (patch_embed): Conv2d(3, 256, kernel_size=(4, 4), stride=(4, 4))
+  (head): Linear(in_features=512, out_features=10, bias=True)
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+)
+Epoch 0:   7%|▋         | 26/391 [00:02<00:32, 11.35it/s, Loss=2.14, Accuracy=20.4]
+Epoch 0:  13%|█▎        | 49/391 [00:04<00:29, 11.43it/s, Loss=2.1, Accuracy=21.6]
+Epoch 0:  18%|█▊        | 72/391 [00:06<00:27, 11.44it/s, Loss=2.07, Accuracy=22.4]
+Epoch 0:  24%|██▍       | 95/391 [00:08<00:26, 11.22it/s, Loss=2.06, Accuracy=22.8]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Training Accuracy: 27.95
+Training Loss: 1.934
+Testing Epoch: 0
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Test Accuracy: 29.53
+Test Loss: 2.040
+Training Epoch: 1
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Training Accuracy: 34.21
+Training Loss: 1.790
+Testing Epoch: 1
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Test Accuracy: 23.05
+Test Loss: 2.134
+Training Epoch: 2
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+Epoch 0:  30%|███       | 118/391 [00:10<00:24, 11.18it/s, Loss=2.05, Accuracy=23.7]
+[4mReloaded modules[24m: rev, fast_rev, utils, revmvit, revswin, rev_mod
+cuda
+==> Preparing data..
+Files already downloaded and verified
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+RevViT_Momentum(
+  (layers): ModuleList(
+    (0-3): 4 x ReversibleBlock(
+      (F): AttentionSubBlock(
+        (norm): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (G): MLPSubblock(
+        (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (mlp): Sequential(
+          (0): Linear(in_features=256, out_features=1024, bias=True)
+          (1): GELU(approximate='none')
+          (2): Linear(in_features=1024, out_features=256, bias=True)
+        )
+      )
+    )
+  )
+  (patch_embed): Conv2d(3, 256, kernel_size=(4, 4), stride=(4, 4))
+  (head): Linear(in_features=512, out_features=10, bias=True)
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+)
+Training Epoch: 0
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+Training Accuracy: 25.60
+Training Loss: 2.001
+Testing Epoch: 0
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+Test Accuracy: 31.85
+Test Loss: 1.887
+Training Epoch: 1
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+Training Accuracy: 28.94
+Training Loss: 1.924
+Testing Epoch: 1
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+Test Accuracy: 30.12
+Test Loss: 1.893
+Training Epoch: 2
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+Training Accuracy: 31.31
+Training Loss: 1.867
+Testing Epoch: 2
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+Test Accuracy: 29.94
+Test Loss: 1.881
+Training Epoch: 3
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+Training Accuracy: 31.73
+Training Loss: 1.856
+Testing Epoch: 3
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+Test Accuracy: 31.92
+Test Loss: 1.893
+Training Epoch: 4
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+Training Accuracy: 32.22
+Training Loss: 1.848
+Testing Epoch: 4
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+Test Accuracy: 31.09
+Test Loss: 1.882
+Training Epoch: 5
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+Training Accuracy: 33.13
+Training Loss: 1.834
+Testing Epoch: 5
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+Test Accuracy: 34.72
+Test Loss: 1.793
+Training Epoch: 6
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+Training Accuracy: 33.16
+Training Loss: 1.818
+Testing Epoch: 6
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+Test Accuracy: 33.00
+Test Loss: 1.857
+Training Epoch: 7
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload

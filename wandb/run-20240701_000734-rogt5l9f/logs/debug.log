@@ -1,0 +1,28 @@
+2024-07-01 00:07:34,137 INFO    MainThread:17080 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-07-01 00:07:34,141 INFO    MainThread:17080 [wandb_setup.py:_flush():76] Configure stats pid to 17080
+2024-07-01 00:07:34,141 INFO    MainThread:17080 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Administrator\.config\wandb\settings
+2024-07-01 00:07:34,141 INFO    MainThread:17080 [wandb_setup.py:_flush():76] Loading settings from D:\STUDY ABROAD\project\minREV-main\minREV-main\wandb\settings
+2024-07-01 00:07:34,141 INFO    MainThread:17080 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-01 00:07:34,141 INFO    MainThread:17080 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-01 00:07:34,141 INFO    MainThread:17080 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main_mod.py', 'program_abspath': 'd:\\study abroad\\project\\minrev-main\\minrev-main\\main_mod.py', 'program': 'd:\\study abroad\\project\\minrev-main\\minrev-main\\main_mod.py'}
+2024-07-01 00:07:34,141 INFO    MainThread:17080 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-01 00:07:34,141 INFO    MainThread:17080 [wandb_init.py:_log_setup():520] Logging user logs to D:\STUDY ABROAD\project\minREV-main\minREV-main\wandb\run-20240701_000734-rogt5l9f\logs\debug.log
+2024-07-01 00:07:34,141 INFO    MainThread:17080 [wandb_init.py:_log_setup():521] Logging internal logs to D:\STUDY ABROAD\project\minREV-main\minREV-main\wandb\run-20240701_000734-rogt5l9f\logs\debug-internal.log
+2024-07-01 00:07:34,141 INFO    MainThread:17080 [wandb_init.py:init():560] calling init triggers
+2024-07-01 00:07:34,141 INFO    MainThread:17080 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-07-01 00:07:34,141 INFO    MainThread:17080 [wandb_init.py:init():605] wandb.init() called when a run is still active
+2024-07-01 00:19:12,802 INFO    MainThread:17080 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-07-01 00:19:12,802 INFO    MainThread:17080 [wandb_setup.py:_flush():76] Configure stats pid to 17080
+2024-07-01 00:19:12,802 INFO    MainThread:17080 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Administrator\.config\wandb\settings
+2024-07-01 00:19:12,802 INFO    MainThread:17080 [wandb_setup.py:_flush():76] Loading settings from D:\STUDY ABROAD\project\minREV-main\minREV-main\wandb\settings
+2024-07-01 00:19:12,802 INFO    MainThread:17080 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-01 00:19:12,802 INFO    MainThread:17080 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-01 00:19:12,802 INFO    MainThread:17080 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main_mod.py', 'program_abspath': 'd:\\study abroad\\project\\minrev-main\\minrev-main\\main_mod.py', 'program': 'd:\\study abroad\\project\\minrev-main\\minrev-main\\main_mod.py'}
+2024-07-01 00:19:12,802 INFO    MainThread:17080 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-01 00:19:12,802 INFO    MainThread:17080 [wandb_init.py:_log_setup():520] Logging user logs to D:\STUDY ABROAD\project\minREV-main\minREV-main\wandb\run-20240701_001912-qwqzlku2\logs\debug.log
+2024-07-01 00:19:12,802 INFO    MainThread:17080 [wandb_init.py:_log_setup():521] Logging internal logs to D:\STUDY ABROAD\project\minREV-main\minREV-main\wandb\run-20240701_001912-qwqzlku2\logs\debug-internal.log
+2024-07-01 00:19:12,802 INFO    MainThread:17080 [wandb_init.py:init():560] calling init triggers
+2024-07-01 00:19:12,802 INFO    MainThread:17080 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-07-01 00:19:12,802 INFO    MainThread:17080 [wandb_init.py:init():605] wandb.init() called when a run is still active

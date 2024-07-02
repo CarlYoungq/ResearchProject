@@ -1,0 +1,101 @@
+
+Epoch 0:   4%|▎         | 14/391 [00:01<00:33, 11.42it/s, Loss=2.22, Accuracy=18.5]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  98%|█████████▊| 384/391 [00:29<00:00, 13.22it/s, Loss=2.27, Accuracy=20.9]
+Training Accuracy: 20.93
+Training Loss: 2.268
+Epoch 0: 100%|██████████| 391/391 [00:30<00:00, 12.94it/s, Loss=2.27, Accuracy=20.9]
+Epoch 0 [Test]:   0%|          | 0/79 [00:00<?, ?it/s]
+[4mReloaded modules[24m: rev, fast_rev, utils, revmvit, revswin, rev_mod
+cuda
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+[autoreload of rev_mod failed: Traceback (most recent call last):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 273, in check
+    superreload(m, reload, self.old_objects)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 496, in superreload
+    update_generic(old_obj, new_obj)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 393, in update_generic
+    update(a, b)
+  File "D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\IPython\extensions\autoreload.py", line 345, in update_class
+    if update_generic(old_obj, new_obj):
+RecursionError: maximum recursion depth exceeded while calling a Python object
+]
+Epoch 0:   5%|▍         | 19/391 [00:01<00:29, 12.81it/s, Loss=2.19, Accuracy=19.3]
+RevViT_Momentum(
+  (layers): ModuleList(
+    (0-3): 4 x ReversibleBlock(
+      (F): AttentionSubBlock(
+        (norm): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (G): MLPSubblock(
+        (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (mlp): Sequential(
+          (0): Linear(in_features=256, out_features=1024, bias=True)
+          (1): GELU(approximate='none')
+          (2): Linear(in_features=1024, out_features=256, bias=True)
+        )
+      )
+    )
+  )
+  (patch_embed): Conv2d(3, 256, kernel_size=(4, 4), stride=(4, 4))
+  (head): Linear(in_features=512, out_features=10, bias=True)
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  94%|█████████▍| 368/391 [00:28<00:01, 13.23it/s, Loss=2.2, Accuracy=23.1]
+Training Accuracy: 23.31
+Training Loss: 2.188
+Epoch 0: 100%|██████████| 391/391 [00:29<00:00, 13.06it/s, Loss=2.19, Accuracy=23.3]
+Epoch 0 [Test]:  14%|█▍        | 11/79 [00:00<00:01, 38.15it/s, Loss=2.04, Accuracy=24.4]
+Test Accuracy: 25.16
+Test Loss: 2.003
+Epoch 0 [Test]: 100%|██████████| 79/79 [00:02<00:00, 39.03it/s, Loss=2, Accuracy=25.2]
+D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\torch\optim\lr_scheduler.py:156: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+
+
+
+
+

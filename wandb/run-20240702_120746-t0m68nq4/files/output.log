@@ -1,0 +1,224 @@
+
+Epoch 0:   3%|▎         | 12/391 [00:01<00:38,  9.87it/s, Loss=2.24, Accuracy=16.7]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  99%|█████████▊| 386/391 [00:31<00:00, 12.35it/s, Loss=2.01, Accuracy=25.4]
+Training Accuracy: 25.51
+Training Loss: 2.006
+Epoch 0: 100%|██████████| 391/391 [00:32<00:00, 12.10it/s, Loss=2.01, Accuracy=25.5]
+Epoch 0 [Test]:  87%|████████▋ | 69/79 [00:01<00:00, 39.86it/s, Loss=1.91, Accuracy=30.1]
+Test Accuracy: 30.26
+Test Loss: 1.911
+Epoch 0 [Test]: 100%|██████████| 79/79 [00:01<00:00, 40.06it/s, Loss=1.91, Accuracy=30.3]
+D:\Programs\anaconda3\envs\pytorch_env\lib\site-packages\torch\optim\lr_scheduler.py:156: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1: 100%|██████████| 391/391 [00:31<00:00, 12.27it/s, Loss=1.9, Accuracy=29.7]
+Epoch 1 [Test]:  13%|█▎        | 10/79 [00:00<00:01, 39.49it/s, Loss=1.96, Accuracy=30.5]
+Training Accuracy: 29.67
+Training Loss: 1.901
+Testing Epoch: 1
+Test Accuracy: 30.07
+Test Loss: 1.933
+Epoch 1 [Test]: 100%|██████████| 79/79 [00:01<00:00, 39.88it/s, Loss=1.93, Accuracy=30.1]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 2:  94%|█████████▍| 369/391 [00:30<00:01, 12.28it/s, Loss=1.85, Accuracy=31.8]
+Training Accuracy: 31.87
+Training Loss: 1.851
+Epoch 2: 100%|██████████| 391/391 [00:31<00:00, 12.28it/s, Loss=1.85, Accuracy=31.9]
+Epoch 2 [Test]:  14%|█▍        | 11/79 [00:00<00:01, 39.45it/s, Loss=1.83, Accuracy=32.9]
+Test Accuracy: 31.63
+Test Loss: 1.880
+Epoch 2 [Test]: 100%|██████████| 79/79 [00:01<00:00, 40.11it/s, Loss=1.88, Accuracy=31.6]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 3:  96%|█████████▌| 374/391 [00:30<00:01, 12.19it/s, Loss=1.79, Accuracy=34.5]
+Training Accuracy: 34.49
+Training Loss: 1.793
+Epoch 3: 100%|██████████| 391/391 [00:31<00:00, 12.24it/s, Loss=1.79, Accuracy=34.5]
+Epoch 3 [Test]:  37%|███▋      | 29/79 [00:00<00:01, 39.43it/s, Loss=1.82, Accuracy=35]
+Test Accuracy: 35.06
+Test Loss: 1.794
+Epoch 3 [Test]: 100%|██████████| 79/79 [00:01<00:00, 39.79it/s, Loss=1.79, Accuracy=35.1]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 4:  99%|█████████▊| 386/391 [00:34<00:00,  9.15it/s, Loss=1.76, Accuracy=35.4]
+Training Accuracy: 35.37
+Training Loss: 1.765
+Epoch 4: 100%|██████████| 391/391 [00:35<00:00, 11.12it/s, Loss=1.76, Accuracy=35.4]
+Epoch 4 [Test]:  46%|████▌     | 36/79 [00:01<00:01, 23.16it/s, Loss=1.74, Accuracy=37.1]
+Test Accuracy: 36.25
+Test Loss: 1.764
+Epoch 4 [Test]: 100%|██████████| 79/79 [00:03<00:00, 24.50it/s, Loss=1.76, Accuracy=36.2]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 5:  96%|█████████▌| 375/391 [00:32<00:01, 12.25it/s, Loss=1.78, Accuracy=34.8]
+Training Accuracy: 34.95
+Training Loss: 1.780
+Epoch 5: 100%|██████████| 391/391 [00:33<00:00, 11.57it/s, Loss=1.78, Accuracy=35]
+Epoch 5 [Test]:  39%|███▉      | 31/79 [00:00<00:01, 38.30it/s, Loss=1.71, Accuracy=38.6]
+Test Accuracy: 37.69
+Test Loss: 1.745
+Epoch 5 [Test]: 100%|██████████| 79/79 [00:02<00:00, 38.69it/s, Loss=1.75, Accuracy=37.7]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 6: 100%|██████████| 391/391 [00:41<00:00,  9.45it/s, Loss=1.79, Accuracy=34.8]
+Epoch 6 [Test]:  44%|████▍     | 35/79 [00:01<00:01, 22.56it/s, Loss=1.91, Accuracy=31.8]
+Training Accuracy: 34.76
+Training Loss: 1.789
+Epoch 6 [Test]: 100%|██████████| 79/79 [00:03<00:00, 23.87it/s, Loss=2.01, Accuracy=29.1]
+Epoch 7:   1%|          | 2/391 [00:00<00:42,  9.13it/s, Loss=1.76, Accuracy=34.4]
+Test Accuracy: 29.07
+Test Loss: 2.007
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 7:  96%|█████████▋| 377/391 [00:34<00:01, 11.97it/s, Loss=1.78, Accuracy=34.5]
+Training Accuracy: 34.47
+Training Loss: 1.787
+Epoch 7: 100%|██████████| 391/391 [00:35<00:00, 10.94it/s, Loss=1.79, Accuracy=34.5]
+Epoch 7 [Test]:  47%|████▋     | 37/79 [00:00<00:01, 39.59it/s, Loss=1.95, Accuracy=30.4]
+Test Accuracy: 29.24
+Test Loss: 2.014
+Epoch 7 [Test]: 100%|██████████| 79/79 [00:02<00:00, 39.35it/s, Loss=2.01, Accuracy=29.2]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 8:  96%|█████████▌| 375/391 [00:30<00:01, 12.26it/s, Loss=1.79, Accuracy=34.8]
+Training Accuracy: 34.75
+Training Loss: 1.790
+Epoch 8: 100%|██████████| 391/391 [00:32<00:00, 12.20it/s, Loss=1.79, Accuracy=34.7]
+Epoch 8 [Test]:  39%|███▉      | 31/79 [00:00<00:01, 38.75it/s, Loss=1.81, Accuracy=33.7]
+Test Accuracy: 32.43
+Test Loss: 1.860
+Epoch 8 [Test]: 100%|██████████| 79/79 [00:01<00:00, 39.92it/s, Loss=1.86, Accuracy=32.4]
+
+
+
+

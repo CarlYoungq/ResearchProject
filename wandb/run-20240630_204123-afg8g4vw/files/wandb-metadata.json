@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.8.18",
+    "heartbeatAt": "2024-06-30T19:41:24.596362",
+    "startedAt": "2024-06-30T19:41:23.926615",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "d:\\study abroad\\project\\minrev-main\\minrev-main\\main_mod.py",
+    "codePathLocal": "main_mod.py",
+    "codePath": "main_mod.py",
+    "host": "UKCY",
+    "username": "Administrator",
+    "executable": "D:\\Programs\\anaconda3\\envs\\pytorch_env\\python.exe",
+    "cpu_count": 24,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 2200.0,
+        "min": 0.0,
+        "max": 2200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2200.0,
+            "min": 0.0,
+            "max": 2200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1673.3525352478027,
+            "used": 1078.9805374145508
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 31.70067596435547
+    }
+}
