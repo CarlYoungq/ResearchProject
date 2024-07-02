@@ -1,4 +1,5 @@
 
+
 <h1> minREV </h1>
 
 *Inspired by [minGPT](https://github.com/karpathy/minGPT)* 
@@ -105,3 +106,6 @@ For more usecases such as reproducing numbers from [original paper](https://open
 to state-of-the-art accuracies. 
 
 
+
+# ResearchProject
+67c8c3e2ad81d8285cbbc463a21af2f3e29f2bd3
